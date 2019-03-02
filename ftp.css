@@ -1,0 +1,195 @@
+hr
+{
+	background-color: rgb(70,70,70);
+	width: 70%;
+}
+
+h1 > span
+{
+	font-size: 0.5em;
+}
+h1
+{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+.reward
+{			
+	position: absolute;
+	margin-top: -105%;
+	border: none;
+	width: 80%;
+	font-size: 1.2em;
+	text-align: center;
+	border-radius: 20px;
+	background-color: rgb(220,220,220);
+	margin-left: 10%;
+}
+
+.Gandalf
+{
+	opacity: 0.5;
+	width: 100%;
+}
+
+em
+{
+	color: orange;
+	font-style: normal;
+}
+
+.containerGandalf:hover .Gandalf
+{
+	opacity: 1;
+}
+
+.containerGandalf:hover .reward
+{
+	opacity: 0;
+}
+
+.status
+{
+	position: absolute;
+	font-size: 3em;
+	text-align: center;
+	margin-top: -65%;
+	margin-left: 35%;
+}
+
+.nav-pills
+{
+	justify-content: center;
+}
+
+h4
+{
+	font-size: 1.7em;
+}
+
+.media1
+{
+	padding-bottom: 20px;
+}
+h6
+{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 1.3em;
+}
+
+/* Tableau */
+
+table
+{
+	margin: 0 auto;
+}
+th, td
+{
+	border: solid 2px black;
+	width: 400px;
+}
+
+th
+{
+	background-color: grey;
+	color: rgb(235,235,235);
+}
+
+tr:nth-child(2n)
+
+{
+	background-color: rgb(213,213,213)
+}
+td
+{
+	font-weight: bold;
+}
+
+.card1
+{
+	margin-left: 10%;
+}
+
+.btn_Lateral_Card
+{
+	margin-left: 28%;
+}
+
+.Text_Gollum
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Gollum_name_image
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Gollum_img
+{
+	border-radius: 50%;
+}
+
+.Gollum_name
+{
+	font-weight: bold;
+	color: rgb(220,220,220);
+	margin-top: 25%;
+	margin-left: -25%;
+}
+
+.Card_Join_Army
+{
+	border: none;
+}
+
+.Img_Troll_Army
+{
+	max-width: 250px;
+	padding-left: 70px;
+
+}
+
+.Text_btn_Join_Army
+{
+	display: flex;
+	flex-direction:column
+}
+
+.btn_Joins_Us
+{
+	align-self:center;
+}
+
+.Join_The_Army
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.background_footer
+{
+	background-color: grey;
+}
+
+.text_link1
+{
+	color: rgb(230,230,230);
+}
+
+.text_link2
+{
+	color: rgb(230,230,230);
+	font-weight: bold;
+}
