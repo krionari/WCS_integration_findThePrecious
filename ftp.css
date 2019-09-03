@@ -1,52 +1,148 @@
-hr
+@font-face 
 {
-	background-color: rgb(70,70,70);
-	width: 70%;
+	font-family: 'aniron';
+	src: url('PoliceTitre/anicb___.ttf') format("truetype"),
+	url('PoliceTitre/anicm___.ttf') format("truetype"),
+	url('PoliceTitre/anirb___.ttf') format("truetype"),
+	url('PoliceTitre/anirm___.ttf') format("truetype");
 }
 
-h1 > span
+@font-face 
+{
+	font-family: 'partybusiness';
+	src: url('PoliceTexte/partybusiness.ttf') format("truetype");
+}
+
+@font-face 
+{
+	font-family: 'tngani';
+	src: url('Symbole/tngani.ttf') format("truetype");
+}
+/* NavBar */
+
+.Navigation_bar
+{
+	background-color: rgb(255, 92, 0);
+}
+
+.Navigation_bar a
+{
+	font-family: 'aniron';
+	color: white !important;
+}
+
+.Fellows
+{
+	text-decoration: underline;
+}
+
+
+/* End NavBar */
+
+/* Caroussel */
+.Container_Carousel
+{
+	position: relative;
+}
+
+.carousel-caption
+{
+	text-align: center;
+	top: 40%;
+}
+
+.TitreCaroussel
+{
+	font-family: 'partybusiness';
+	font-size: 4.5em;
+}
+
+.TexteCaroussel
+{
+	font-family: 'partybusiness';
+	font-size: 2.3em;
+}
+/* End Caroussel */
+
+/* Pills and Cards Portait */
+
+.Bloc_Pills_Portrait
+{
+	background-image: url('Images/bg_light.png');
+}
+
+.nav-pills
+{
+	justify-content: center;
+}
+
+.ButtonPills a
+{
+	font-family: 'aniron';
+	font-size: 1.5em;
+	color: rgb(117,117,121);
+}
+
+.Or_Alive
 {
 	font-size: 0.5em;
+	font-weight: bold;
 }
 h1
 {
-	font-size: 3em;
-	font-weight: bold;
+	font-family: 'aniron';
+	font-size: 2.5em;
 	text-align: center;
 }
 
-h2
-{
-	font-size: 3em;
-	font-weight: bold;
-	text-align: center;
+.Symbole1
+{	
+	position: relative;
+	font-family: 'tngani';
+	color: orange;
+	font-style: 1.8em;
+	top: -20px
 }
+
+.Symbole2
+{
+	font-family: 'tngani';
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: orange;
+}
+
+.SecondPills
+{
+	color: orange;
+	text-decoration: underline;
+}
+
 .reward
 {			
 	position: absolute;
 	margin-top: -105%;
 	border: none;
 	width: 80%;
-	font-size: 1.2em;
+	font-size: 2.2em;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: rgb(220,220,220);
 	margin-left: 10%;
 }
 
 .Gandalf
 {
-	opacity: 0.5;
+	opacity: 0.6;
+	width: 100%;
+}
+.Gimli
+{
+	opacity: 0.35;
 	width: 100%;
 }
 
-em
-{
-	color: orange;
-	font-style: normal;
-}
-
-.containerGandalf:hover .Gandalf
+.containerGandalf:hover .Gandalf 
 {
 	opacity: 1;
 }
@@ -61,19 +157,78 @@ em
 	position: absolute;
 	font-size: 3em;
 	text-align: center;
-	margin-top: -65%;
+	margin-top: -95%;
 	margin-left: 35%;
+	color: orange;
 }
 
-.nav-pills
+.Title_Card_Portrait1
 {
-	justify-content: center;
+	position: absolute;
+	font-family: 'partybusiness';
+	font-size: 3.3em;
+	bottom: 45%;
+	left: 26%;
+	color: white
 }
 
-h4
+.Title_Card_Portrait2
 {
+	position: absolute;
+	font-family: 'partybusiness';
+	text-decoration: line-through orange;
+	font-size: 3.3em;
+	bottom: 45%;
+	left: 32%;
+	color: white
+}
+
+.Text_card_Portrait
+{
+	font-size: 1.8em;
+	text-align: left;
+	color: rgb(142, 127, 127)
+}
+
+em
+{
+	color: orange;
+	font-style: normal;
+}
+
+.Image_Card_Border
+{
+	border: solid black 8px;
+}
+
+.CardPortrait
+{
+	background-color: black;
+}
+
+
+/* End Pills and Cards Portait */
+p
+{
+	font-family: 'partybusiness';
+	font-size: 1.5em;
+}
+
+hr
+{
+	background-color: rgb(70,70,70);
+	width: 70%;
+}
+
+
+h2
+{
+	font-family: 'aniron';
 	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
 }
+
 
 .media1
 {
@@ -83,7 +238,9 @@ h6
 {
 	display: flex;
 	justify-content: flex-start;
-	font-size: 1.3em;
+	font-family: 'aniron';
+	font-size: 1.7em;
+	font-weight: bold;
 }
 
 /* Tableau */

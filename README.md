@@ -1,0 +1,1 @@
+Structurer une page avec HTML et CSS, à l'aide d'une maquette.
